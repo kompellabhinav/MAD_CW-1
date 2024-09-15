@@ -1,0 +1,28 @@
+name: cw_1
+
+description: "A new Flutter project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  assets:
+    - lib/assets/image1.png
+    - lib/assets/image2.png
+  
+  uses-material-design: true
